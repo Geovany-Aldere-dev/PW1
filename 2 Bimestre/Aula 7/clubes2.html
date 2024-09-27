@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./Img/whatsapp-image-2022-10-19-at-15.11.51.jpeg.ico" type="image/x-icon" />
+    <title>Formulário Clubes</title>
+
+    <style>
+
+        h1 {
+            text-align: center;
+            color: deeppink;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        img {
+            width: 150px;
+        }    
+
+        div {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1> Formulário Clubes de Futebol Brasileiro </h1>
+    <hr>
+
+      
+    <form>
+
+
+        <div>
+            <select id="tbSelecao" name="tbSelecao">
+                <option> São Paulo  </option>
+                <option> Corinthians </option>
+                <option> Palmeiras </option>
+                <option> Santos </option>
+                <option> Flamengo </option>
+                <option> Vasco </option>
+                <option> Outros </option>
+            </select>
+        </div>
+
+        <br/>
+
+        <div>
+            <label> Paleta de cores do Time </label>
+            <br>
+            <input type="color" id="tbPaleta" name="tbPaleta">
+            <input type="color" id="tbPaleta" name="tbPaleta">
+            <input type="color" id="tbPaleta" name="tbPaleta">
+        </div>
+
+        <br/>
+
+        <div>
+            <label> Escudo do Time : </label>
+            <br>
+            <input type="file" name="tbEscudo" id="tbEscudo">
+        </div>
+
+        <br/>
+
+        <div>
+            <label> Títulos : </label>
+            <br> 
+            <input type="checkbox" id="ckTitulos"/> <span> Paulista  </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Brasileiro  </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Copa do Brasil  </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Libertadores </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Recopa </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Mundial de Clubes </span>
+            <input type="checkbox" id="ckTitulos"/> <span> Nenhum </span>
+        </div>
+
+        <br/>
+
+        <div>
+            <label> Hino do Clube : </label>
+            <br>
+            <textarea></textarea>
+        </div>
+
+        <br/>
+
+        <div id="EnviarFds">
+            <input type="submit" volue="Enviar">
+        </div>
+
+        <br/>
+
+        <div>
+            <img src="./Img/whatsapp-image-2022-10-19-at-15.11.51.jpeg.jpg"/>
+        </div>
+
+    </form>
+
+
+</body>
+</html>

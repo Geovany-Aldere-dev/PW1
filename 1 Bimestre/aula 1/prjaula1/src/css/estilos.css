@@ -1,0 +1,17 @@
+body { 
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.Introducao {
+    font-size: 15pt;
+}
+
+h2 {
+    margin-left: 25px;
+}
+
