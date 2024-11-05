@@ -1,0 +1,346 @@
+body {
+    background-color: #f4efc9;
+    margin: 0%;
+}
+
+.cabecalho {
+    height: 7%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    border-bottom: 1px solid #282828;
+}
+
+img {
+    width: 16%;
+    padding-bottom: 1%;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 80px;
+    margin-top: 5%;
+}
+.cabecalho .menu li a {
+    padding: 5px;
+    color: #8f3521;
+    font-size: 19px;
+    font-family:'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #8f3521;
+}
+
+.imgPrincipal {
+    width: 100%;
+    height: 60ch;
+}
+
+.tituloBanner {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8f3521;
+    text-align: center;
+}
+
+.banner{
+    margin-top: 3%;
+    background: #fffbdf;
+    height: 30ch;
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 20%;
+}
+
+.imagemBanner {
+    float: left;
+    width: 40%;
+}
+
+.imagemBanner img{
+    border-radius: 25px;
+    width: 55%;
+    height: 30ch;
+}
+
+.textosBanner{
+    float: left;
+    width: 60%;
+    height: 40ch;
+    margin-left: -15%;
+}
+
+.textosBanner p{
+    margin-top: 5%;
+    font-size: 20px;
+    color: #472d24;
+    font-family: sans-serif;
+    width: 110%;
+}
+
+.botão {
+    position: absolute;
+    background-color: #8f3521;
+    border-radius: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 20%;
+    height: 4.3ch;
+    left: 36%;
+    top: 134%;
+    text-decoration: none;
+}
+
+.descCardapio p{
+    margin-left: 12ch;
+    font-size: 20px;
+    color: #472d24;
+    font-family: sans-serif;
+}
+
+.descCardapio h3{
+    font-size: 30px;
+    font-family: Questrial, Geneva, Tahoma, sans-serif;
+    color: #8f3521;
+    margin-left: 6.9ch;
+    margin-top: -1ch;
+} 
+
+div.galeriaP{
+    gap: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 13%;
+}
+
+div.galeria {
+    margin: 5%;
+    border: 1px solid #8f3521 ;
+    float: left;
+    width: 18%;
+    border-radius: 17px;
+    background: rgb(255, 243, 218);
+    position: relative;
+    height: 350px;
+}
+
+div.galeria img {
+    border-radius: 17px;
+    width: 100%;
+}
+
+div.desc h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    text-align: center;
+    color: #8f3521;
+    margin-left: 0%;
+    margin-top: -0.11111111111111111111111ch;
+}
+
+div.desc p{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:#472d24;
+    margin-left: 0%;
+    margin-top: -1.5ch;
+}
+
+div.desc a{
+    position: absolute;
+    background-color: #8f3521;
+    border-radius: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 70%;
+    height: 30px;
+    top: 85%;
+    left: 14%;
+    text-decoration: none;
+}
+
+.locais {
+    height: 97ch;
+    background-color: #e8b27f;
+    margin-top: 4%;
+}
+
+.titulo1 {
+    margin-top: 6ch;
+    margin-left: 12ch;
+    font-size: 20px;
+    color: #472d24;
+    font-family: sans-serif;
+}
+
+.tituloEspaço {
+    font-size: 30px;
+    font-family: Questrial, Geneva, Tahoma, sans-serif;
+    color: #8f3521;
+    margin-left: 6.9ch;
+    margin-top: -1ch;    
+}
+
+.bigHouses img {
+    border-radius: 29px;
+    margin-left: 8%;
+    margin-top: 4%;
+    width: 20%;
+}
+
+.tituloBigHouse {
+    font-size: 30px;
+    color: #472d24;
+    margin-left: 30%;
+    margin-top: -14.8%;
+}
+
+.descBigHouse {
+    margin-left: 30%;
+    font-size: 17px;
+    font-family: Questrial, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+
+.gardens img {
+    border-radius: 29px;
+    margin-left: 8%;
+    margin-top: 7%;
+    width: 20%;
+}
+
+.tituloGardens {
+    font-size: 30px;
+    color: #472d24;
+    margin-left: 30%;
+    margin-top: -13%;
+}
+
+.descGardens {
+    margin-left: 30%;
+    font-size: 17px;
+    font-family: Questrial, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+
+.palaces img {
+    border-radius: 29px;
+    margin-left: 8%;
+    margin-top: 4%;
+    width: 20%;
+}
+
+.tituloPalaces {
+    font-size: 30px;
+    color: #472d24;
+    margin-left: 30%;
+    margin-top: -16%;
+}
+
+.descPalaces {
+    margin-left: 30%;
+    font-size: 17px;
+    font-family: Questrial, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+
+.avaliações {
+    background-color: #f4efc9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer.rodapé {
+    background-color: #fffef4;
+    position: relative;
+    top: 10ch;
+    height: 150px;
+}
+
+.comunicação {
+    position: absolute;
+    right: 80px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8f3521;
+    font-size: 17.5px;
+}
+
+.endereço {
+    position: absolute;
+    top: 13px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8f3521;
+    font-size: 18.4px;
+}
+
+.direitos {
+    position: absolute;
+    top: 60px;
+    font-family: 'Questrial', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8f3521;
+    font-size: 18.4px;
+}
+
+div.redesSociais {
+    position: relative;
+    top: 110px;
+    right: 140px;
+}
+
+.instagram {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    width: 50px;
+}
+
+.x {
+    position: absolute;
+    bottom: 10px;
+    right: 32px;
+    width: 46px;
+}
+
+.whatsapp {
+    position: absolute;
+    bottom: -40px;
+    right: 100px;
+    width: 46px;
+}
+
+.youtube {
+    position: absolute;
+    bottom: -40px;
+    right: 32px;
+    width: 42px;
+} 

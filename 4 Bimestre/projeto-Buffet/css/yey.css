@@ -1,0 +1,86 @@
+div.galeriaP{
+    gap: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 13%;
+}
+
+div.galeria {
+    margin: 5%;
+    border: 1px solid #8f3521 ;
+    float: left;
+    width: 18%;
+    border-radius: 17px;
+    background: rgb(255, 243, 218);
+    position: relative;
+    height: 350px;
+}
+
+div.galeria img {
+    border-radius: 17px;
+    width: 100%;
+}
+
+div.desc h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    text-align: center;
+    color: #8f3521;
+    margin-left: 0%;
+}
+
+div.desc p{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:#472d24;
+    margin-left: 0%;
+}
+
+div.desc a{
+    position: absolute;
+    background-color: #8f3521;
+    border-radius: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 70%;
+    height: 30px;
+    top: 85%;
+    left: 14%;
+    text-decoration: none;
+}
+
+
+
+<div class="descCardapio">
+<p> Conheça um pouco do Nosso </p>
+<h3> Cardápio </h3>
+</div>
+
+<div class="imagensCardapio">
+<img src="./img/Cardápio 1.jpg" alt="Imagem do Cardápio" class="imgCardapio1">
+<img src="./img/Cardápio 2.jpg" alt="Imagem do Cardápio" class="imgCardapio2">
+<img src="./img/Cardápio 3.jpg" alt="Imagem do Cardápio" class="imgCardapio3">
+</div>
+
+<div class="descimagensCardapio">
+<h3 class="coquetel1">Coquetel<br>Básico</h3>
+<h3 class="coquetel2">Coquetel<br>Premium</h3>
+<h3 class="coquetel3">Jantar<br>Completo</h3>
+
+<p class="preço1">R$ 50,00 por convidado</p>
+<p class="preço2">R$ 60,00 por convidado</p>
+<p class="preço3">R$ 80,00 por convidado</p>
+</div>
+<div class="botõesimagensCardapio">
+    <a href="./cardápio.html" class="botãoCardápio1"> Explore Mais! </a>
+    <a href="./cardápio.html" class="botãoCardápio2"> Explore Mais! </a>
+    <a href="./cardápio.html" class="botãoCardápio3"> Explore Mais! </a>
+</div>
