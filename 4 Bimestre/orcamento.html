@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Orçamento </title>
+    <link rel="stylesheet" href="./css/orcamento.css">
+    <link rel="stylesheet" href="/css/reset.css">
+
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="index.html"> <img src="./imgs/Logo Buffet.png" alt="Logo do Buffet"> </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="cardapio.html">Cardápio</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="orcamento.html">Orçamento</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <img src="imgs/banner orça.jpg" class="banner"/>
+
+    <section class="form">
+        <form>
+            <br>
+            <h1> Faça o seu Orçamento! </h1>
+
+            <div> 
+                <label> Nome </label>
+                <input type="text" id="txNome" name="txNome" />
+            </div>
+            <br/>
+
+            <div> 
+                <label> Email </label>
+                <input type="email" id="Email" name="Email" />
+            </div>
+            <br/> 
+            
+            <div>
+                <label> Data do evento </label>
+                <input type="date" id="data">
+            </div>
+
+            <br/>
+
+            <div>
+                <label> Número de convidados </label>
+                <input type="number" id="Convi" name="NumConvi" />
+            </div>
+
+            <br>
+
+            <div>
+                <label> Tipo do Cardápio: </label>
+                <select>
+                    <option> Escolha um cardápio </option>
+                    <option id="CoqueBasico"> Coquetel Básico </option>
+                    <option id="CoquePremium"> Coquetel Premium </option>
+                    <option id="Jantar"> Jantar Completo </option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label> Tipo de Festa: </label>
+                <br>
+                <input type="radio" id="rdAni" name="rdAni"/> <span> Aniversário </span>
+                <br>
+                <input type="radio" id="rdCasa" name="rdCasa"/> <span> Casamento </span>
+                <br>
+                <input type="radio" id="rdOutro" name="rdOutro"/> <span> Outro </span>
+            </div>
+
+            <br>
+
+            <div>
+                <label> Adições : </label> 
+                <br>
+                <input type="checkbox" id="ckDJ"/> <span> Dj </span>
+                <br>
+                <input type="checkbox" id="ckVinho"/> <span> Mesa de Vinhos </span>
+                <br>
+                <input type="checkbox" id="ckDecoração"/> <span> Decoração </span>
+                <br>
+                <input type="checkbox" id="ckBolo"/> <span> Bolo </span>
+            </div>
+
+            <br>
+
+            <div>
+                <button type="button" value="Enviar"> Obter Orçamento </button>
+            </div>
+
+            <br>
+
+            <div id="resultado"></div>
+
+        </form>
+    </section>
+
+    <footer class="rodape">
+        <div class="textosRodape">
+            <br>
+            <p class="endereço"> Nos encontre no Endereço: Avenida Uau N°70, Cep: 08696-920, Sp, São Paulo. </p>
+            <p class="direitos"> Todos os Direitos Reservados para - Alder's - 2024 </p>
+        </div>
+
+    </footer>
+
+    <script src="/js/orcamento.js"></script>
+</body>
+</html>
